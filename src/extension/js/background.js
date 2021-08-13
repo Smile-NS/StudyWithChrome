@@ -1,6 +1,8 @@
 var allowBrowse = false;
 var time;
 
+const defaultInterval = 1800000;
+
 chrome.runtime.onConnect.addListener(port => {
   let channel = port.name;
 
@@ -11,7 +13,7 @@ chrome.runtime.onConnect.addListener(port => {
     case "set_allow_browse":
       allowBrowse = true;
       chrome.storage.local.get("time", value => {
-        let time = value.time == null ? 60000 : value.time;
+        let time = value.time == null ? defaultInterval : value.time;
         setTimeout(() => allowBrowse = false, time);
       });
       time = Date.now();

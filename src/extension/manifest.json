@@ -1,6 +1,6 @@
 {
     "name": "Study With Chrome",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Smile_NS",
     "manifest_version": 2,
     "description": "When you try to access to a web page, it's locked by this extension. To browse it, you must answer the questions asked. (The questions are for middle school students.)",

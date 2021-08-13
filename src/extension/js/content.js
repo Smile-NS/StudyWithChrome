@@ -22,13 +22,15 @@ function lock() {
   });   
 }
 
+const defaultInterval = 1800000;
+
 function reserveLock() {
   chrome.runtime.connect({name: "get_last_time"})
   .onMessage.addListener(response => {
     let now = Date.now();
 
     chrome.storage.local.get("time", value => {
-      let time = value.time == null ? 60000 : value.time;
+      let time = value.time == null ? defaultInterval : value.time;
       setTimeout(() => lock(), time - (now - response));
     });  
   });    
