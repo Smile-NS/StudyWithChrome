@@ -1,0 +1,34 @@
+{
+    "name": "Study With Chrome",
+    "version": "1.0.0",
+    "author": "Smile_NS",
+    "manifest_version": 2,
+    "description": "When you try to access to a web page, it's locked by this extension. To browse it, you must answer the questions asked. (The questions are for middle school students.)",
+    "permissions": [
+      "*://script.google.com/*",
+      "*://script.googleusercontent.com/*",
+      "storage"
+    ],
+    "content_scripts": [{
+      "matches": ["*://*/*"],
+      "js": [
+        "js/content.js"
+      ]
+    }],
+    "background": {
+      "scripts": [
+        "js/jquery-3.6.0.min.js",
+        "js/background.js"
+      ],
+      "presistent": false
+    },
+    "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png",
+      "16": "images/icon16.png"
+    },
+    "browser_action": {
+      "default_title": "StudyWithChrome",
+      "default_popup": "popup/popup.html"
+    }
+  }

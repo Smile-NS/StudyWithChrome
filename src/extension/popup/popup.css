@@ -1,0 +1,30 @@
+* { 
+    box-sizing: border-box;
+} 
+
+body {
+    background: #dcdcdc;
+    width: 250px;
+    height: 100px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 10px;
+}
+
+p.error_message {
+    color: red;
+}
+
+input.time_field {
+    width: 50px;  
+}
+
+form {
+    position: relative;
+    left: 40px;
+}
