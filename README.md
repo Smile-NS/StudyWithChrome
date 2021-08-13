@@ -8,3 +8,8 @@
 ## How to use?  
 デベロッパーモードをONにし、[拡張機能](chrome://extensions/)に直接zipファイルごと導入してください。  
 スプレッドシートと連携しており、そこに書かれた問題を参照してくるので「問題を自分で作成したい！」という方は私まで連絡下さい。  
+ | service | acount-name | 
+ | ---- | ---- |
+ | Discord | すまいる#6294 |
+ | GitHub | [Smile-NS](https://github.com/Smile-NS) |
+ | Twitter | [Smile0NS](https://twitter.com/Smile0NS) |
