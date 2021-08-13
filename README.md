@@ -6,7 +6,7 @@
 ## Download  
 [StudyWithChrome-1.0.0.zip](https://github.com/Smile-NS/StudyWithChrome/raw/master/StudyWithChrome-1.0.0.zip)  
 ## How to use?  
-**デベロッパーモードをONにし**、拡張機能の設定から直接zipファイルごと導入してください。  
+拡張機能の設定から、**デベロッパーモードをONにして**直接zipファイルごと導入してください。  
 スプレッドシートと連携しており、そこに書かれた問題を参照してくるので「問題を自分で作成したい！」という方は私の方に連絡いただければ編集権限をお渡しします。  
  | service | acount-name | 
  | ---- | ---- |
